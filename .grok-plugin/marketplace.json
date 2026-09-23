@@ -371,7 +371,7 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
-      "name": "giskard-skills",
+      "name": "giskard",
       "description": "Evaluate and red-team AI agents with Giskard: generate adversarial scenarios and RAG evaluation suites, connect agents to Giskard Hub, and export scan results to Collibra AI Governance.",
       "category": "development",
       "source": {

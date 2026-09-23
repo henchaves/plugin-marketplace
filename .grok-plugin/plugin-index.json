@@ -395,7 +395,7 @@
         ]
       }
     },
-    "giskard-skills": {
+    "giskard": {
       "sha": "432e95b6710b8e693d8d0a64b28959ede785d270",
       "version": "1.1.0",
       "components": {
