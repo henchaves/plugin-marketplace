@@ -102,8 +102,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
-      "version": "1.9.0",
+      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
+      "version": "1.10.1",
       "components": {
         "mcpServers": [
           {
@@ -626,6 +626,24 @@
         ]
       }
     },
+    "octen": {
+      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "octen-web",
+            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
@@ -638,7 +656,7 @@
       }
     },
     "pstack": {
-      "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
+      "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
       "components": {
         "agents": [
           {
@@ -855,8 +873,8 @@
       }
     },
     "railway": {
-      "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
-      "version": "1.5.1",
+      "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
+      "version": "1.5.5",
       "components": {
         "hooks": [
           {
@@ -925,8 +943,8 @@
       }
     },
     "stripe": {
-      "sha": "97b2164821c378f246c3903852057b36a8bd0296",
-      "version": "0.8.3",
+      "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
+      "version": "0.8.5",
       "components": {
         "agents": [
           {
@@ -989,7 +1007,7 @@
           },
           {
             "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions and SDKs"
+            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
@@ -1171,8 +1189,8 @@
       }
     },
     "vercel": {
-      "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
-      "version": "0.50.0",
+      "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
+      "version": "0.50.1",
       "components": {
         "agents": [
           {
@@ -1267,8 +1285,16 @@
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
+            "name": "custom-metrics",
+            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
+          },
+          {
+            "name": "domains",
+            "description": "Search, register, connect, transfer, and renew domain names on Vercel using the CLI or Domains Registrar API. Use for d…"
           },
           {
             "name": "env-vars",
@@ -1378,8 +1404,8 @@
       }
     },
     "wix": {
-      "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f",
-      "version": "1.19.2",
+      "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
+      "version": "1.20.0",
       "components": {
         "mcpServers": [
           {
